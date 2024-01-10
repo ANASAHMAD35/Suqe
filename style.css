@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Marhey', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  
+}
+.clr{
+    clear: both;
+}
+.nav{
+    background-color: #008cff;
+    height: 10vh;
+    padding: 20px;
+}
+.head{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+ul{
+    list-style: none;
+}
+.head a{
+    text-decoration: none;
+}
+.head nav .left ul li{
+    display: inline-block;
+}
+.head .nav .right img{
+    width: 90px;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.enter{
+    background-color: #008cff;
+    border: 0;
+    padding: 10px;
+}
+.nav1{
+    background-color: rgba(128, 128, 128, 0.3);
+    height: 10vh;
+    padding: 10px;
+}
+.needed_nav_li{
+    padding: 10px;
+}
+.search{
+    padding: 10px;
+}
+.ul1 li a,i{
+    color: #008cff;
+}
+header a:hover{
+    color: rgb(0, 0, 0);
+}
+.ne1547{
+    color: white;
+}
+.news{
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-delay: 0ms;
+    width: 100%;
+    height: 50vh;
+    margin-top: 70px;
+    animation-iteration-count: infinite;
+}
+@keyframes slide {
+    0%{
+        background-image: url(images/slid1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    25%{
+        background-image: url(images/slid2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(images/slid3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%{
+        background-image: url(images/slid4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background-image: url(images/slid5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.offers{
+    background-color: rgb(188, 188, 188);
+}
+.target_img_from_offers_div{
+    border-radius: 10px;
+    display: block;
+    width: 90%;
+}
+.div_offers{
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+}
+.div_offers h2{
+    color: #008cff;
+}
+.offers{
+    text-align: center;
+    margin: 15px 0;
+    padding: 10px 0;
+}
+.imgs_of_contain_of_ofers{
+    border-radius: 10px;
+    width: 240px;
+    height: 250px;
+}
+.todayoffers h1 {
+    direction: rtl;
+}
+.todayoffers{
+    background-color: rgb(188, 188, 188);
+    height: 240px;
+    width: 100%;
+}
+.its_like_the_above_but_its_difrant{
+    margin-top: 150px;
+    text-align: center;
+}
+.a_from_its_like_the_above_but_its_difrant{
+    display: inline-block;
+    text-decoration: none;
+    height: 50px;
+    color: rgba(0, 0, 255,);
+}
+.btn_from_its_like_the_above_but_its_difrant{
+    display: block;
+    /* width: 50%; */
+    margin-left: 700px;
+    border: 0;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-family:  'Marhey', sans-serif;
+    font-weight: bolder;
+    background-color: rgb(179, 137, 11);
+}
+.ghykj12545{
+    direction: rtl;
+}
+.kjhdjerhge5{
+    display: inline-block;
+}
+footer .n1st_part_of_footer a{
+    text-decoration: none;
+    display: block;z1
+}
+footer .n1st_part_of_footer div{
+    display: inline-block;
+    margin: 50px;
+}
+footer .n1st_part_of_footer{
+    text-align: center;
+    color: white;
+    direction: rtl;
+    background-color: #008cff;
+    margin: 10px 0;
+}
+.not_needed{
+    color: #008cff;
+}
+.not_needed:hover{
+    cursor: default;
+}
+.n2st_part_of_footer{
+    margin-bottom: 8px;
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+}
